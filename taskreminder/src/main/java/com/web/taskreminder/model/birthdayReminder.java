@@ -6,6 +6,22 @@ public class birthdayReminder {
 	private String date;
 	private String emailId;
 	private String daysBeforeReminder;
+	private String msgSubject;
+	private String msgBody;
+	
+	
+	public String getMsgSubject() {
+		return msgSubject;
+	}
+	public void setMsgSubject(String msgSubject) {
+		this.msgSubject = msgSubject;
+	}
+	public String getMsgBody() {
+		return msgBody;
+	}
+	public void setMsgBody(String msgBody) {
+		this.msgBody = msgBody;
+	}
 	public String getDate() {
 		return date;
 	}
